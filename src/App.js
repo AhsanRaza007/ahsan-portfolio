@@ -19,10 +19,10 @@ function App() {
     enter: { opacity: 1, transform: 'translate(0%, 0)' },
     leave: { opacity: 0, transform: 'translate(-100%, 0)' }
   });
-
+  console.log(process.env.NODE_ENV, process.env.PUBLIC_URL)
   return (
     <div className="App">
-
+      
       <Navbar />
       {
         transitions.map(({ item, props, key }) => (
