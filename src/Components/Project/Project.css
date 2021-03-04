@@ -1,0 +1,41 @@
+.card-link{
+    display: flex;
+    justify-content: space-evenly;
+    width: fit-content;
+    align-items: center;
+}
+
+.card-link i{
+    margin-right: 5px;
+}
+
+.tech-stack i{
+    margin-right: 10px;
+}
+
+.card{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-title{
+    color: #9a4adb;
+}
+
+.tech-stack i{
+    font-size: 1.2em;
+    color: #7d8286;
+}
+
+@media only screen and (max-width: 800px){
+    .card{
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+        width: 100%;
+    }
+}

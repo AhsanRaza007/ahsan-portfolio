@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+.hero-text{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.about{
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero-text-detail{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.btn{
+    background-color: #9a4adb;
+    color: #fff;
+    transition: all 440ms ease-in-out;
+}
+
+.btn:hover{
+    background-color: #660caf;
+    color: #fff;
+}
+
+.btn:active{
+    transform: scale(0.80);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 480px){
+    .buttons {
+        flex-direction: column;
+    }
+    .buttons .btn{
+        margin: 5px 0;
+    }
+    .row{
+        padding: 10px;
+    }
+    .education-timeline{
+        padding: 0;
+    }
+    .css-hv1whv-TimelineMainWrapper{
+        padding: 0;
+    }
+    .css-1iv48dl-TimelineVerticalWrapper{
+        padding: 0 !important;
+    }
+}
