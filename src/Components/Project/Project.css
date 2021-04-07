@@ -28,6 +28,11 @@
     color: #7d8286;
 }
 
+.tech-stack p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 @media only screen and (max-width: 800px){
     .card{
         width: 48%;

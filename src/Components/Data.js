@@ -63,6 +63,10 @@ const skills = {
             'name': 'react.js'
         },
         {
+            'icon': 'si si-styled-components',
+            'name': 'styled components'
+        },
+        {
             'icon': 'si si-java',
             'name': 'java'
         },
@@ -93,6 +97,10 @@ const skills = {
         {
             'icon': 'fas fa-database',
             'name': 'sql-database'
+        },
+        {
+            'icon': 'si si-docker',
+            'name': 'docker'
         }
     ],
     'whatIDoText': [
@@ -107,6 +115,25 @@ const skills = {
 const projects = {
     'summary': 'Here are some of the projects by me! 😄 ',
     'projectsList': [
+        {
+            'title': 'Mynterest!',
+            'description': 'Clone of the popular web-app pinterest. You can sign up, create your pins and even save pins created by others. It uses Amazon S3 sdk to store the images. MongoDb is used as database. Express for the backend. React as the front-end. Styled components for styling react app.',
+            'imageurl': '/images/mynterest.png',
+            'githubLink': 'https://github.com/AhsanRaza007/pinterest-clone-backend.git',
+            'liveLink': 'https://mynterest.netlify.app/',
+            'techStack': [
+                'si si-html5',
+                'si si-css3',
+                'si si-styled-components',
+                'si si-javascript',
+                'si si-node-dot-js',
+                'si si-express',
+                'si si-mongodb',
+                'si si-amazonaws',
+                'si si-react',
+                'si si-amazons3'
+            ]
+        },
         {
             'title': 'Md-Url',
             'description': 'This simulates a url shortener used to reduce the size of the url by generating an 11 character long id shich is mapped onto the url in the backend.',

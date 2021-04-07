@@ -8,7 +8,7 @@ const Work = () => {
     return (
         <AbsoluteComponent>
         <div className="work">
-            <Chrono items={items} mode="VERTICAL" hideControls theme={{primary: "#9a4adb", secondary: "#E6E0F8", cardBgColor: "#fff", cardForeColor: "#000" }}/>
+            <Chrono items={items} mode="VERTICAL" scrollable={{scrollbar: true}} hideControls theme={{primary: "#9a4adb", secondary: "#E6E0F8", cardBgColor: "#fff", cardForeColor: "#000" }}/>
         </div>
         </AbsoluteComponent>
     );
